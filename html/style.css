@@ -1,0 +1,20 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+#watermark {
+    position: fixed;
+    top: 10px; /* FR: Position verticale : ajuste si nécessaire */ /*EN:  Vertical position: adjust if necessary */
+    left: 10px; /* FR: Position horizontale : ajuste si nécessaire */ /* EN: Horizontal position: adjust if necessary */
+    z-index: 9999;
+    opacity: 1; /* FR: Transparence du logo */ /* EN: Logo transparency */
+    pointer-events: none; /* FR: Empêche d'interagir avec le logo */ /* EN: Prevent interacting with the logo */
+
+}
+
+#watermark img {
+    width: 150px; /* FR: Taille du logo : ajuste selon tes besoins */ /* EN: Logo size: adjust according to your needs */
+    height: auto;
+}
